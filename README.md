@@ -47,8 +47,15 @@ or
 
 推荐使用：
 
-    if cv2.waitKey(33) == ord('a'):
+    if cv2.waitKey(0) == ord('a'):
         do sth...
+
+例子：
+    
+    key = cv2.waitKey(0) 
+    if key == ord("a"):
+        #cv2.destroyAllWindows()
+        cv2.imwrite(r"img/ikun_0.jpg", img)
 
 * 图片保存
 
