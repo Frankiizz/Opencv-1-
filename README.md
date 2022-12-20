@@ -41,10 +41,13 @@ or
 
 
     key = cv2.waitKey(0) & 0xFF
-
     if key == 27:
+        cv2.destroyAllWindows()
 
-    cv2.destroyAllWindows()
+推荐使用：
+
+    if cv2.waitKey(33) == ord('a'):
+        do sth...
 
 * 图片保存
 
