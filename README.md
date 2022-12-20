@@ -44,8 +44,8 @@ or
     key = cv2.waitKey(0) & 0xFF
     if key == 27:
         cv2.destroyAllWindows()
-    # waitKey()中的参数为int， 代表 毫秒
-    # key得到的返回值为ASCII码，键码标请自寻搜索
+waitKey()中的参数为int， 代表 毫秒
+key得到的返回值为ASCII码，键码表请自寻搜索
     
 
 推荐使用：
